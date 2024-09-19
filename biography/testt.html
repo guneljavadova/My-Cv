@@ -2,30 +2,40 @@
 
     <header>
         <title>Gunel's CV</title>
-      <!--<link rel="icon" type="image/png" href="favicon-32x32">-->  
+      
+        <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->  
+         <style>
+            table, th, td {
+            border: 1px solid black;
+        }
+         </style>
     </header>
     
     <body>
-        <h1>Gunel Javadova</h1>
-        <img src=".\Gunel's picture.png" alt="Gunel Javadova" width="200px" length="200px" />
+        <input type="button" onclick="alert('Welcome to My Website!')" value="Click Me!">
+        <h1>Gunel Javadova</h1> 
+        <img src="./circular_image.png" alt="Gunel Javadova" width="200px" length="200px" />
         <h2>BIOGRAPHY</h2>
-        <h3>Education</h3>
         <p>I am third year IT student at 
-            <a href="https://www.ada.edu.az/en" target="_blank">ADA University</a>.
-        I have knowledge about C, Java and Python programming languages. 
-        Highly interested in Web Development and working on it to improve my knowledge. 
-        I know Azerbaijani, English, Turkish and a little Russian. </p>
+            <a href="https://www.ada.edu.az/en" target="_blank">ADA University</a>.</p>
 
-        <h3>Interests</h3>
-        <p>
-           Also have interests on drawing, reading books and photography. In this instagram account you can see my works: 
-            <a href="https://www.instagram.com/tranquillenss?igsh=amxhMjg1M3U2aG9i" target="_blank">@tranquillenss</a>. </p>
+         <ul>
+            <li><a href="./testt.html">Home</a></li>
+            <li><a href="./knowledge.html">Education</a></li>
+            <li><a href="./hobbies.html">Hobbies</a></li>
+            <li><a href="./schedule.html">Schedule</a></li>
+            <li><a href="./questionnarie.html" target="_blank">Questions</a></li> 
+        </ul>
+        <br>
+        <form method="post" enctype="multipart/form-data" action="mailto:guneljavadova04@gmail.com">
 
-        <p>
-          <h3>What is New?</h3>  
-            <ul>
-                <li>Learning graphic design.</li>
-            </ul>
-        </p>
+            <label for="feedback">Share your thoughts with me:</label><br>
+            <input type="text" id="feedback" name="feedback"><br>
+            <br>
+            <input type="Submit" value="Submit">
+        </form>
+
     </body>
+
+
 </html>
